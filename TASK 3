@@ -1,0 +1,28 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Collaboration Tool</title>
+    <link rel="stylesheet" href=css/*"styles.css">
+</head>
+<body>
+    <header>
+        <h1>Real-Time Collaboration Tool</h1>
+    </header>
+
+    <main>
+        <div id="collaboration-container">
+            <textarea id="shared-text" placeholder="Start typing..."></textarea>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Real-Time Collaboration Tool</p>
+    </footer>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
